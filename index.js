@@ -32,7 +32,8 @@ app.on('ready', function(){
         win = null ;
         win_status.close();
     });
-
+ 
+    console.log('window id is', win.getMediaSourceId())
     
       
 })
